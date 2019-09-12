@@ -1,0 +1,404 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+	 margin: 0;
+    padding: 0;
+    font-family: 'Hepta Slab', serif;
+    font-family: 'Hepta Slab', serif;
+font-family: 'Josefin Sans', sans-serif;
+
+}
+.navbar-brand img{
+	width: 120px
+}
+
+.navbar-light .navbar-nav .nav-link {
+	     color: rgb(232, 123, 18);
+	    font-weight: 500
+}
+   
+ .btn-custom {    
+ 	background-color: rgb(232, 123, 18);
+ 	color: #fff !important;
+ 	border-radius:50px ! important;
+ 	padding-left: 40px !important;
+ 	padding-right: 40px !important;
+ 	border: 2px solid  rgb(232, 123, 18);;
+
+
+ }
+ .btn-custom:hover{
+    background-color:  rgb(232, 123, 18);;
+     color:rgb(232, 123, 18)!important
+
+ }
+ .banner {
+
+ 	background-image: url(../images/pic4.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover; 
+    color: #ff7e01; 
+    background-blend-mode: multiply;
+    background-color:rgb(218, 209, 190);
+    text-align:center;
+    padding: 100px 0;
+ }
+
+
+.banner div h1{
+
+     animation-name: color;
+     animation-duration: 5s;
+     animation-iteration-count: infinite; 
+     animation-direction: alternate; /* or: normal */
+    animation-timing-function: ease-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
+    animation-fill-mode: forwards; /* or: backwards, both, none */
+
+ }
+
+ @keyframes color: {
+
+    0%{
+        color: #fff;
+    }
+    50%{
+        color:red;
+    }
+    100%{ 
+
+      color: orange;  }
+ }
+
+
+ .banner h3{
+
+    font-size: 1.75rem;
+    font-weight: 300;
+   color: #ff7e01;
+
+ }
+
+
+
+  .banner p{
+     margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    color:#ecdfd2;
+}
+
+
+ .banner row{
+ 	min-height: 80vh
+ }
+ 
+
+ .banner-btn {
+    animation-name:up-down;
+    animation-duration:5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite; 
+
+ }
+ @keyframes up-down{
+
+    0%{ transform: translate(0); }
+
+    50%{transform: translate(100px); }
+  
+    100%{transform: translate(0);}
+}
+
+
+
+  .banner-btn a{
+    background-color:  rgb(232, 123, 18)!important;
+ 	color: rgb(255,255,255);
+ 	border-radius:40px ! important;
+ 	padding-left: 40px !important;
+ 	padding-right: 40px !important;
+ 	border: 2px solid  rgb(255,255,255);
+    position: relative;
+
+ }
+
+
+  .banner-btn a::before{
+ 	content: "";
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 100%
+ 	border:1px solid rgb(255,255,255);;
+ 	top: -5px;
+ 	left: 0;
+ 	border-radius:40px ! important;
+ }
+ 	
+.banner-btn li{
+	padding: 0 10px
+}
+
+.banner-btn a:hover{
+	background-color: #fff;
+	color:rgb(232, 123, 18)!important;
+	font-weight: 500;
+	text-transform: uppercase;
+
+}
+ 
+
+ .banner-btn a:hover::before{
+ 	border:1px solid rgba(255,255,255,0);
+
+
+ }
+.modal-content:{
+    background-color: #ccc1b7;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+
+}
+ 
+.about-bbq-section{ 
+	padding: 100px 0;
+}
+
+.shadow{
+	box-shadow: 0 5px 15px #463a3a! important;
+}
+.shadow:hover{
+	box-shadow: 0 0 0 #463a3a !important
+}
+.about-bbq{}
+.about-bbq h3{    
+	color: #ec7e13;
+    font-weight: 500;
+    font-size: 20px;
+}
+.about-bbq h4{  
+    color:#f7a63b;;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.about-bbq h5{    
+	font-size: 1.25rem;
+    color: #927f7f;
+    font-weight: 700;
+}
+.about-bbq p{   
+    font-size: 15px;
+    color: #56504a;
+    font-weight: 800;
+}
+.about-bbq a{
+	position: relative;
+}
+.about-bbq a::before{
+	content: "";
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 100%
+ 	border:1px solid rgb(255,255,255);;
+ 	top: -5px;
+ 	left: 0;
+ 	border-radius: 40px ! important;
+ 
+}
+.client{
+	padding: 25px 0
+}
+.client img{
+	filter: blur(1px);
+}
+
+.client img:hover{
+
+	filter: blur(0px);
+}
+
+.feature{
+
+ 	background-image: url(../images/pic24.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover; 
+    color: #efe4da;
+    background-blend-mode: multiply;
+    background-color:rgb(218, 209, 190);
+    text-align:center;
+    background-image-width:100% 
+
+ }
+ 
+.menu-section{
+	padding: 100px 0;
+}
+.menu-section h3{    
+	color: #de490c;
+    font-size: 20px;
+    font-weight: 500;}
+
+.menu-section h1{
+	    font-size: 25px;
+    color: #f37f10;
+    font-weight: 600;
+    line-height: 0.6;
+}
+
+.menu-section p{
+	    font-size: 12px;
+   color: #dc7624;
+    font-weight: 400;
+}
+.menu-section img{
+	border-radius: 50%
+
+}
+ 
+
+
+.Offer-section{
+	background-image: url(../images/pic3.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover; 
+     color: #060606 ;
+    background-blend-mode: multiply;
+    background-color:rgb(218, 209, 190);
+    text-align:center;
+    padding: 100px 0;
+   
+}
+
+.Offer-section h5{
+    font-size: 1.25rem;
+    color: #da700a;
+    font-weight: 600;
+}
+
+.Offer-section h1{
+    font-size: 2.5rem;
+    color: #e87b12;
+    font-weight: 400;
+}
+.Offer-section p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #fdc28a;
+    font-size: 16px;
+    font-weight: 600;
+    }
+
+.feature{
+    padding: 200px 0;
+    background-image: url(../images/pic999.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+     color: #060606 ;
+    background-blend-mode: multiply;
+    background-color:rgb(218, 209, 190);
+    text-align:center;
+    padding: 100px 0;
+}
+
+.feature h2{
+
+    font-size: 2rem;
+    color: #e87b12;
+    font-weight: 600;
+}
+.feature h6{
+    font-size: 1rem;
+    color: #ec8b2e;
+    font-weight: 700;
+}
+.feature p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    font-weight: 800;
+    color: #c18c59;
+}
+
+.food-lover-section{
+	padding: 100px 0;
+}
+
+.food-lover-section h1{
+	
+	text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #e87b12;
+}
+
+.food-lover-section h4{
+	     text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    color: #e2760d;
+}
+
+.food-lover-section p{
+ 
+ text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #c17a35;
+
+}
+
+.food-lover-section img{
+	border-radius:150px ! important;
+ 
+
+}
+
+.footer-section{
+
+	background-image: url(../images/pic99.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover; 
+     color: #060606 ;
+    background-blend-mode: multiply;
+    background-color:rgb(218, 209, 190);
+    text-align:center;
+    padding: 100px 0;
+
+}
+.footer-section h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #e87b12;
+}
+
+.footer-section p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    font-weight: 300;
+    color: #dcd4cd;
+}
+.footer-section div h3{
+        font-size: 1.75rem;
+    color: #f17b0a;
+    font-weight: 500;
+}
+
+
+@media(max-width: 767px){
+    .about-bbq-section .about-bbq,.about-bbq-section .col-xl{
+        margin-bottom: 30px;
+    }
+}
